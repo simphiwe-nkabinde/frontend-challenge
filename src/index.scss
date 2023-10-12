@@ -4,3 +4,12 @@ $primary: #70259B;
 $font-family-base: 'Inter', sans-serif;
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+@include media-breakpoint-up(md) {
+    header {
+        background-color: $primary;
+        .nav-item {
+            color: #fff !important;
+        }
+    }
+}
