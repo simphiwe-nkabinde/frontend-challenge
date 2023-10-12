@@ -1,7 +1,7 @@
-import { useState } from 'react'
 import "bootstrap/dist/js/bootstrap.min.js";
 import './App.css'
 import Header from './components/Header';
+import Hero from './components/Hero';
 
 function App() {
 
@@ -9,9 +9,7 @@ function App() {
     <>
       <Header />
       <main>
-        <section>
-        </section>
-        <section></section>
+        <Hero />
         <section></section>
         <section></section>
       </main>

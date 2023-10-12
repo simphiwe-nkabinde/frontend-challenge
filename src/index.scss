@@ -12,4 +12,17 @@ $font-family-base: 'Inter', sans-serif;
             color: #fff !important;
         }
     }
+    .hero-container {
+        .hero-content {
+            width: 50vw;
+        }
+    }
+}
+
+.hero-container {
+    height: 600px;
+    background-image: url('/hero-image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
