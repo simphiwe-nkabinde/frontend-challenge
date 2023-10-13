@@ -1,0 +1,14 @@
+@import "./../../index.scss";
+
+.heading-tag {
+    @extend .d-flex;
+    @extend .align-items-center;;
+}
+.heading-tag::before {
+    content: "";
+    background-color: #D100C9;
+    width: 40px;
+    height: 4px;
+    display: block;
+    @extend .me-4
+}

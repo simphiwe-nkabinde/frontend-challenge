@@ -1,0 +1,15 @@
+@import "./../../index.scss";
+
+.caseCard-container {
+    min-width: 294px;
+    width: 399px;
+    height: 399px;
+    box-shadow: 0px 8px 16px 0px rgba(54, 54, 54, 0.10);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .card-content {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.64) 100%);
+    }
+}

@@ -1,0 +1,13 @@
+@import "./../../index.scss";
+
+.brand-wrapper {
+    width: 128px;
+    height: 60px;
+}
+
+// @include media-breakpoint-up(lg) {
+//     .brand-wrapper {
+//         width: 256px;
+//         height: 120px;
+//     }
+// }

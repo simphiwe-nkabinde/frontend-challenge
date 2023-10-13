@@ -1,0 +1,20 @@
+@import "./../../index.scss";
+
+.serviceCard {
+    h3 {
+        height: 41px;
+    }
+
+}
+
+@include media-breakpoint-up(md) {
+    .serviceCard {
+        h3 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}

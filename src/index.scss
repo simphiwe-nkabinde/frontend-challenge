@@ -1,28 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;500&display=swap');
 
 $primary: #70259B;
+$primary-dark: #430964;
 $font-family-base: 'Inter', sans-serif;
 
 @import "node_modules/bootstrap/scss/bootstrap";
-
-@include media-breakpoint-up(md) {
-    header {
-        background-color: $primary;
-        .nav-item {
-            color: #fff !important;
-        }
-    }
-    .hero-container {
-        .hero-content {
-            width: 50vw;
-        }
-    }
-}
-
-.hero-container {
-    height: 600px;
-    background-image: url('/hero-image.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}

@@ -1,6 +1,7 @@
 import React from 'react'
+import './heroSection.scss'
 
-export default function Hero() {
+export default function HeroSection() {
     return (
         <section className='hero-container text-light d-flex align-items-end p-5' >
             <div className='hero-content'>

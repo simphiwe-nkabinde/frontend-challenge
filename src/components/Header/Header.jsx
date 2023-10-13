@@ -1,10 +1,11 @@
 import React from 'react'
+import './header.scss'
 
 const navItems = [
-    { name: 'services', path: '/' },
-    { name: 'industries', path: '/' },
-    { name: 'cases', path: '/' },
-    { name: 'contact', path: '/' }
+    { name: 'services', path: '/#services' },
+    { name: 'industries', path: '/#industries' },
+    { name: 'cases', path: '/#cases' },
+    { name: 'contact', path: '/#contact' }
 ]
 
 export default function Header() {

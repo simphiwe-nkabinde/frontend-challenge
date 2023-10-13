@@ -1,0 +1,11 @@
+@import "./../../index.scss";
+
+@include media-breakpoint-up(md) {
+    header {
+        background-color: $primary;
+
+        .nav-item {
+            color: #fff !important;
+        }
+    }
+}
