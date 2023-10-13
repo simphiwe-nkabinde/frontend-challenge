@@ -1,5 +1,8 @@
 import React from 'react'
 import './header.scss'
+import brandLogo from '../../assets/logo.svg'
+import brandLogoDark from '../../assets/logo-dark.svg'
+import hamburger from '../../assets/hamburger.svg'
 
 const navItems = [
     { name: 'services', path: '/#services' },
@@ -13,11 +16,11 @@ export default function Header() {
         <header className='bg-primar px-3 d-flex align-items-center'>
             <nav className='navbar navbar-expand-md align-items-center py-2 px-3 h-100 w-100'>
                 <a className="navbar-brand" href="#">
-                    <img className='d-none d-md-inline' src="/logo.svg" alt="Brand logo" />
-                    <img className='d-md-none' src="/logo-dark.svg" alt="Brand logo" />
+                    <img className='d-none d-md-inline' src={brandLogo} alt="Brand logo" />
+                    <img className='d-md-none' src={brandLogoDark} alt="Brand logo" />
                 </a>
                 <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navigationBar" aria-controls="navigationBar" aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="hamburger.svg" alt="" role='menu' />
+                    <img src={hamburger} alt="" role='menu' />
                 </button>
                 <div className='mt-0 mt-md-0 small fw-bold collapse navbar-collapse justify-content-around' id='navigationBar'>
                     <ul className='navbar-nav text-light'>

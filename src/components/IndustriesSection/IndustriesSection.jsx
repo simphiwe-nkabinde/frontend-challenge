@@ -13,7 +13,7 @@ export default function IndustriesSection() {
       <div className='brands-container'>
         {
           industryLogos.map((logo, index) => (
-            <img className='img-fluid' key={index} src={logo.filename} alt={logo.altText} />
+            <img className='img-fluid' key={index} src={logo.icon} alt={logo.altText} />
           ))
         }
       </div>
