@@ -10,7 +10,7 @@
 @include media-breakpoint-up(md) {
     .hero-container {
         .hero-content {
-            width: 50vw;
+            max-width: 570px;
         }
     }
 }

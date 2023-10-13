@@ -1,5 +1,12 @@
 @import "./../../index.scss";
 
+header {
+    nav {
+        max-width: 1280px;
+        @extend .mx-auto;
+    }
+}
+
 @include media-breakpoint-up(md) {
     header {
         background-color: $primary;

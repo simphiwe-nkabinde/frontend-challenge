@@ -21,7 +21,7 @@ function App() {
         <CasesSection />
         <Divider height={50} />
         <IndustriesSection />
-        <Divider height={50}/>
+        <Divider height={80}/>
       </main>
       <Footer />
     </>
