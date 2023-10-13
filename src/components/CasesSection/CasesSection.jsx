@@ -34,8 +34,8 @@ export default function CasesSection() {
             <SectionHeading title='Case Studies' />
             <div className='d-flex'>
                 <div className='d-flex align-items-center px-0' onClick={scrollToLeft}>
-                    <button className='bg-transparent border-0 btn z-3 p-0'>
-                        <i class="bi bi-chevron-left display-5  text-primary"></i>
+                    <button aria-label='scroll left' className='bg-transparent border-0 btn z-3 p-0'>
+                        <i className="bi bi-chevron-left display-5  text-primary"></i>
                     </button>
                 </div>
                 <div className='d-flex flex-grow-1 overflow-x-scroll scroll-hidden smoothScroll px-0'>
@@ -46,8 +46,8 @@ export default function CasesSection() {
                     }
                 </div>
                 <div className='d-flex align-items-center px-0' onClick={scrollToRight}>
-                    <button className='bg-transparent border-0 z-3 p-0'>
-                        <i class="bi bi-chevron-right display-5  text-primary"></i>
+                    <button aria-label='scroll right' className='bg-transparent border-0 z-3 p-0'>
+                        <i className="bi bi-chevron-right display-5  text-primary"></i>
                     </button>
                 </div>
             </div>
