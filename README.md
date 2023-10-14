@@ -1,7 +1,8 @@
-
 # Front-end React Developer Challenge
 
 This is a React application bootstrapped with Vite for rapid development.
+
+Live project: https://idyllic-capybara-0c0835.netlify.app/
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
